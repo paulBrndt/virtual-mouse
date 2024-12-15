@@ -13,7 +13,7 @@ smoothening = 8         # Smoothening Factor
 prev_x, prev_y = 0, 0   # Previous coordinates
 curr_x, curr_y = 0, 0   # Current coordinates
 
-cap = cv2.VideoCapture("/Users/paulbrendtner/Desktop/Code/dev/latest/mouse/IMG_6094.mp4")   # Getting video feed from the webcam
+cap = cv2.VideoCapture("/Users/xxx/IMG_6094.mp4")   # Getting video feed from the webcam
 cap.set(3, width)           # Adjusting size
 cap.set(4, height)
 
