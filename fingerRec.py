@@ -16,7 +16,7 @@ width = int(cap.get(3))
 height = int(cap.get(4)) 
 
 fourcc = cv2.VideoWriter_fourcc(*"MP4V")
-out = cv2.VideoWriter(f"/Users/paulbrendtner/Desktop/Code/dev/latest/mouse/out/{path}.mp4", fourcc, 20.0, (width, height))
+out = cv2.VideoWriter(f"/Users/xxx/{path}.mp4", fourcc, 20.0, (width, height))
 
 def calculateDistance(point1, point2) -> float:
             dx = point1.x - point2.x
