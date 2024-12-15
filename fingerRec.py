@@ -10,7 +10,7 @@ cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     print("Oh nein oh nein!")
     exit()
-#cap = cv2.VideoCapture(f"/Users/paulbrendtner/Desktop/Code/dev/latest/mouse/{path}.mp4")
+#cap = cv2.VideoCapture(f"/Users/xxx/{path}.mp4")
 
 width = int(cap.get(3)) 
 height = int(cap.get(4)) 
