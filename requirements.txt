@@ -4,7 +4,7 @@ cffi==1.16.0
 contourpy==1.2.1
 cycler==0.12.1
 flatbuffers==24.3.25
-fonttools==4.53.1
+fonttools==4.61.0
 jax==0.4.30
 jaxlib==0.4.30
 kiwisolver==1.4.5
